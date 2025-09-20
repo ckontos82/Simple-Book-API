@@ -37,13 +37,9 @@ This project is educational and demonstrates how to structure a minimal backend 
 - A running [MongoDB server](https://www.mongodb.com/try/download/community) (local or cloud/Atlas)
 
 Install required dependencies:
-```
-npm install express mongoose dotenv
-npm install --save-dev nodemon
-```
+```npm install express mongoose dotenv
+npm install --save-dev nodemon```
 
 Create a .env file in the root directory:
-```
-MONGO_URI=mongodb://localhost:27017/booksdb
-PORT=3000
-```
+```MONGO_URI=mongodb://localhost:27017/booksdb
+PORT=3000```
