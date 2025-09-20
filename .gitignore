@@ -1,0 +1,55 @@
+# --- Node.js / Express / MongoDB ---
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*         # Allow multiple env files (e.g. .env.development, .env.production)
+!.env.example   # Keep example template
+
+# Build output
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+.tmp/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Testing
+coverage/
+jest-html-reporters-*
+
+# Optional: Docker
+.dockerignore
+docker-compose.override.yml
+
+# Optional: PM2 / nodemon logs
+pmlogs
+*.pid
