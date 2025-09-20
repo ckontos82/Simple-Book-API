@@ -1,7 +1,7 @@
 # 📚 Simple Book API
 
 A simple RESTful API built with **Node.js**, **Express**, and **MongoDB (via Mongoose)** to manage a collection of books.  
-This project is educational and demonstrates how to structure a minimal backend with validation, routing, and error handling.
+It demonstrates how to structure a minimal backend with CRUD operations, validation, routing, and error handling.
 
 ---
 
